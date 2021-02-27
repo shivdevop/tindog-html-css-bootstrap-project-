@@ -1,0 +1,215 @@
+        body {
+            font-family: "Montserrat";
+        }
+        
+        #title {
+            background-color: #ff4c68;
+            color: white;
+            padding-bottom: 20px;
+        }
+        
+        .brandlogo {
+            font-size: 2rem;
+            color: white;
+            margin-right: 10px;
+        }
+        
+        h1 {
+            font-family: "Montserrat-black";
+            font-style: bold;
+            font-size: 2.5rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            margin-bottom: 30px;
+        }
+        
+        .container-fluid {
+            padding: 30px 100px;
+        }
+        
+        .navbar-brand {
+            font-family: "ubuntu";
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .navbar {
+            padding: 0 0 100px 0;
+        }
+        
+        .nav-item {
+            padding: 0 5px;
+            font-weight: bold;
+        }
+        
+        .nav-link:hover {
+            color: black;
+            background-color: darkred;
+        }
+        
+        .title-image {
+            height: 400px;
+            transform: rotate(20deg);
+            position: absolute;
+            padding-left: 100px;
+        }
+        /* features section  */
+        
+        #features {
+            background-color: #ffdcdc;
+            position: relative;
+        }
+        
+        .icon {
+            color: #ff4c68;
+            font-size: 3rem;
+        }
+        
+        .icon:hover {
+            color: darkred;
+        }
+        
+        h3 {
+            font-family: "montserrat-bold";
+            font-weight: bold;
+        }
+        
+        .features-description {
+            font-family: "montserrat-light";
+            color: grey;
+        }
+        
+        .features-box {
+            text-align: center;
+            padding: 5%;
+            margin: 60px 0;
+        }
+        /* testimonials section */
+        
+        #testimonials {
+            text-align: center;
+            background-color: #e64058;
+        }
+        
+        .carousel-item {
+            padding: 7% 15%;
+        }
+        
+        .testimonial-text {
+            font-family: "Montserrat";
+            font-weight: bold;
+            color: white;
+        }
+        
+        .testimonial-image {
+            border-radius: 100%;
+            width: 20%;
+            padding: 40px;
+        }
+        
+        .testimonial-location {
+            font-weight: bold;
+            color: white;
+        }
+        /* press section */
+        
+        #press {
+            text-align: center;
+            background-color: #e64058;
+        }
+        
+        .press-images {
+            width: 23%;
+            padding: 5% 4%;
+        }
+        /* pricing */
+        
+        #pricing {
+            padding: 80px;
+            text-align: center;
+            background-color: #ffdcdc;
+        }
+        
+        .pricing-h2 {
+            font-weight: bold;
+            font-family: "Montserrat-bold";
+        }
+        
+        .pricing-p {
+            font-family: "Montserrat-bold";
+        }
+        
+        .pricing-3cards {
+            padding: 40px 0;
+        }
+        
+        .pricing-btn:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .card {
+            border-radius: 10px;
+            border-top: 1px solid;
+        }
+        
+        .card-body {
+            background-color: #ffb4b4;
+            border-radius: 10px;
+            border-top: 5px solid;
+        }
+        /* media query breakpoints */
+        
+        @media (max-width: 992px) {
+            .title-image {
+                position: static;
+                transform: rotate(0);
+                text-align: center;
+            }
+            #title {
+                text-align: center;
+            }
+        }
+        /* cta section */
+        
+        #cta {
+            text-align: center;
+            font-family: "Montserrat-bold";
+            color: white;
+            background-color: #ff4c68;
+            padding: 100px 0;
+        }
+        
+        .cta-btn {
+            margin: 40px 10px;
+        }
+        
+        .cta-h3 {
+            font-size: 2rem;
+        }
+        /* footer section */
+        
+        #footer {
+            text-align: center;
+            padding-top: 20px;
+            background-color: #ffdcdc;
+            padding-bottom: 20px;
+        }
+        
+        .footer-icon {
+            padding: 10px 10px;
+        }
+        
+        .footer-p {
+            font-family: "Montserrat-bold";
+            font-weight: bold;
+        }
+        /* doubt - styles are not getting added to the copyright section????? */
+        
+        .footer-link:hover {
+            background-color: black;
+            color: white;
+        }
